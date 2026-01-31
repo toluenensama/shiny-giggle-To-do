@@ -3,20 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
     <link href="./output.css" rel="stylesheet" />
     <link href="./fonts.css" rel="stylesheet" />
   </head>
   <body>
     <main
-      class="bg-gray-100 items-center flex flex-col justify-center min-h-screen gap-6 mx-auto py-6 grid-cols-1"
+      class="bg-gray-100 items-center container justify-center min-h-screen space-y-6 py-6 grid-cols-1 md:grid-cols-4"
     >
       <div
-        class="p-6 mx-6 gap-2 bg-purple-500 items-center flex flex-col justify-center text-white rounded-lg"
+        class="p-6 mx-6 gap-2 bg-purple-500 items-center flex flex-col justify-center order-2 text-white rounded-lg"
       >
-        <h2 class="dm-sans-500 text-center text-4xl mb-4">
+        <h2 class="dm-sans-500 text-center text-5xl text-[50px] mb-4">
           Social Media <span class="text-yellow-500">10x</span>
           <span class="italic">Faster</span> with AI
         </h2>
@@ -25,15 +28,91 @@
           alt="5-star review"
           srcset=""
         />
-        <p class="text-sm">Over 4,000 5-star reviews</p>
+        <p class="text-lg text-[18px] dm-sans-400">Over 4,000 5-star reviews</p>
       </div>
-      <div class="p-6 mx-6 bg-white rounded-md"></div>
-      <div class="p-6 mx-6 bg-yellow-500 rounded-md"></div>
-      <div class="p-6 mx-6 bg-purple-100 rounded-md"></div>
-      <div class="p-6 mx-6 bg-purple-500 rounded-md"></div>
-      <div class="p-6 mx-6 bg-white rounded-md"></div>
-      <div class="p-6 mx-6 bg-yellow-100 rounded-md"></div>
-      <div class="p-6 mx-6 bg-yellow-500 rounded-md"></div>
+      <div class="p-6 mx-6 bg-yellow-100 rounded-lg flex flex-col gap-6">
+        <img
+          src="/src/images/illustration-multiple-platforms.webp"
+          alt=""
+          srcset=""
+        />
+        <p class="text-[24px] text-2xl text-gray-800 dm-sans-500">
+          Manage multiple accounts and platforms.
+        </p>
+      </div>
+      <div class="p-6 mx-6 bg-yellow-500 rounded-lg flex flex-col gap-6">
+        <p class="text-[24px] text-2xl text-gray-800 dm-sans-500">
+          Maintain a consistent posting schedule.
+        </p>
+        <img
+          class="mr-9"
+          src="/src/images/illustration-consistent-schedule.webp"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="p-6 mx-6 bg-purple-100 rounded-lg flex flex-col gap-6">
+        <p class="text-[24px] text-2xl dm-sans-500 text-gray-800 text-center">
+          Schedule to social media.
+        </p>
+        <img
+          class=""
+          src="/src/images/illustration-schedule-posts.webp"
+          alt=""
+          srcset=""
+        />
+        <p class="text-lg/tight text-[18px] text-gray-800 text-center  dm-sans-400">
+          Optimize post timings to publish content at the perfect time for your
+          audience.
+        </p>
+      </div>
+      <div class="p-6 mx-6 bg-purple-500 rounded-lg flex flex-col gap-6">
+        <img
+        class=""
+        src="/src/images/illustration-grow-followers.webp"
+        alt=""
+        srcset=""
+      />
+      <p class="text-[36px] text-4xl/7  dm-sans-500 text-white text-center px-6">
+        Grow followers with non-stop content.
+      </p>
+      </div>
+      <div class="p-6 mx-6 bg-white rounded-lg flex flex-col gap-6 ">
+        <h2 class="dm-sans-500 text-gray-800 text-5xl text-[50px] mb-4">
+          >56%
+        </h2>
+        <p class="text-lg text-[18px] text-gray-800   dm-sans-400">
+          faster audience growth
+        </p>
+        <img
+        class="w-50 h-auto"
+        src="/src/images/illustration-audience-growth.webp"
+        alt=""
+        srcset=""
+      />
+      </div>
+      <div class="p-6 mx-6 bg-yellow-100 items-start rounded-lg flex flex-col gap-6">
+        <h2 class="dm-sans-500 text-gray-800 text-5xl text-[30px] mb-4">
+          Create and schedule content <span class="text-purple-500 italic">quicker.</span>
+        </h2>
+        <img
+        class="w-50 h-auto"
+        src="/src/images/illustration-create-post.webp"
+        alt=""
+        srcset=""
+      />
+      </div>
+      <div class="p-6 mx-6 bg-yellow-500 rounded-lg flex flex-col gap-6">
+        <h2 class="dm-sans-500 text-gray-800 text-5xl/7 text-[30px] mb-4">
+          Write your content using AI.
+        </h2>
+        <img
+        class="w-50 h-auto"
+        src="/src/images/illustration-ai-content.webp"
+        alt=""
+        srcset=""
+      />
+      </div>
     </main>
   </body>
 </html>
