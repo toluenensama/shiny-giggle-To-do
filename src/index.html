@@ -14,10 +14,11 @@
   </head>
   <body>
     <main
-      class="bg-gray-100 items-center container justify-center min-h-screen space-y-6 py-6 grid-cols-1 md:grid-cols-4"
+      class="bg-gray-100 items-center container grid justify-center min-h-screen space-y-6 space-x-6 py-6 grid-cols-1 sm:grid-cols-4"
     >
       <div
-        class="p-6 mx-6 gap-2 bg-purple-500 items-center flex flex-col justify-center order-2 text-white rounded-lg"
+        class="p-6 mx-6 gap-2 bg-purple-500 items-center flex flex-col justify-center md:order-2 md:col-span-2 text-white rounded-lg
+        "
       >
         <h2 class="dm-sans-500 text-center text-5xl text-[50px] mb-4">
           Social Media <span class="text-yellow-500">10x</span>
@@ -66,14 +67,14 @@
           audience.
         </p>
       </div>
-      <div class="p-6 mx-6 bg-purple-500 rounded-lg flex flex-col gap-6">
+      <div class="p-6 mx-6 bg-purple-500 rounded-lg md:col-span-2 md:order-last md:flex-row md:items-center md:justify-center md:gap-4 flex flex-col gap-6">
         <img
-        class=""
+        class="md:h-60 md:w-auto"
         src="/src/images/illustration-grow-followers.webp"
         alt=""
         srcset=""
       />
-      <p class="text-[36px] text-4xl/7  dm-sans-500 text-white text-center px-6">
+      <p class="text-[36px] text-4xl/7  dm-sans-500 text-white text-center md:text-start px-6">
         Grow followers with non-stop content.
       </p>
       </div>
@@ -91,7 +92,7 @@
         srcset=""
       />
       </div>
-      <div class="p-6 mx-6 bg-yellow-100 items-start rounded-lg flex flex-col gap-6">
+      <div class="p-6 mx-6 bg-yellow-100 items-start md:order-first rounded-lg flex flex-col gap-6">
         <h2 class="dm-sans-500 text-gray-800 text-5xl text-[30px] mb-4">
           Create and schedule content <span class="text-purple-500 italic">quicker.</span>
         </h2>
@@ -102,7 +103,7 @@
         srcset=""
       />
       </div>
-      <div class="p-6 mx-6 bg-yellow-500 rounded-lg flex flex-col gap-6">
+      <div class="p-6 mx-6 bg-yellow-500 rounded-lg flex flex-col md:row-span-2 gap-6">
         <h2 class="dm-sans-500 text-gray-800 text-5xl/7 text-[30px] mb-4">
           Write your content using AI.
         </h2>
